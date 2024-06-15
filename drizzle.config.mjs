@@ -1,4 +1,3 @@
-import type { Config } from 'drizzle-kit';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -13,4 +12,4 @@ export default {
         password: process.env.DB_PASS,
     },
     verbose: true,
-} satisfies Config;
+};
